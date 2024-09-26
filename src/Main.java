@@ -8,8 +8,7 @@ public class Main {
     Dimension scaledSize = SwingScreenUtilities.getScaledSize(0.4, 10);
 
     ImageDisplayExample gui = new ImageDisplayExample(title, scaledSize);
-    // javax.swing.SwingUtilities.invokeLater(gui);
-    SwingUtilities.invokeLater(() -> new ImageDisplayExample(title, scaledSize));
+    SwingUtilities.invokeLater(gui);
   }
 
 
