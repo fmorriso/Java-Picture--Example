@@ -24,7 +24,7 @@ public class ImageDisplayExample extends JFrame implements Runnable {
     }
 
     /**
-     * Runs thiS GUI on a thread.
+     * Runs this GUI on a thread.
      */
     @Override
     public void run() {
