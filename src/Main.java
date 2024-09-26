@@ -1,11 +1,11 @@
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.SwingUtilities;
+import java.awt.Dimension;
 
 public class Main {
   public static void main(String[] args) {
-    String title = String.format("Java Border Layout Demo using java version %s", getJavaVersion());
+    String title = String.format("Java Picture Scaling Demo using java version %s", getJavaVersion());
     System.out.println(title);
-    Dimension scaledSize = SwingScreenUtilities.getScaledSize(0.4, 10);
+    Dimension scaledSize = SwingScreenUtilities.getScaledSize(0.55, 100);
 
     ImageDisplayExample gui = new ImageDisplayExample(title, scaledSize);
     SwingUtilities.invokeLater(gui);
