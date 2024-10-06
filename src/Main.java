@@ -17,7 +17,7 @@ public class Main {
    */
   private static String getJavaVersion()
   {
-    Runtime.Version runTimeVersion = Runtime.version();
-    return String.format("%s.%s.%s.%s", runTimeVersion.feature(), runTimeVersion.interim(), runTimeVersion.update(), runTimeVersion.patch());
+    Runtime.Version rtv = Runtime.version();
+    return String.format("%s.%s.%s.%s", rtv.feature(), rtv.interim(), rtv.update(), rtv.patch());
   }
 }
