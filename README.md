@@ -5,7 +5,7 @@ An example of displaying pictures in a java JFrame.
 | Tool     |  Version |
 |:---------|---------:|
 | Java     | 23.0.0.0 |
-| IntelliJ | 2024.2.1 |
+| IntelliJ | 2024.2.3 |
 
 ## Change History
 
